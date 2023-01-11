@@ -45,10 +45,10 @@ button,.btn{
 .nav ul{
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 30px;
 }
 .nav ul li a{
-font-size: 18px;
+font-size: 15px;
 color: var(--clr-white);
 }
 
@@ -213,7 +213,7 @@ color: var(--clr-white);
   /*=================== 2nd page ===================*/
 
   .inner-content-wrap{
-    padding: 30px;
+    padding: 15px;
   }
   .coins-info-tbl select{
     padding: 10px 20px;
@@ -227,17 +227,18 @@ color: var(--clr-white);
     border-collapse: collapse;
     width: 100%;
     border-radius: 20px;
+    font-size: 14px;
   }
   .coins-info-tbl tr:not(.coins-info-tbl tr:last-of-type){
     border-bottom: 1px dashed black;
   }
   .coins-info-tbl td{
-    padding: 20px 40px;
+    padding: 10px 20px;
     
   }
   .iner-head{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 10px;
   }
   .product-info-wrap{
@@ -262,7 +263,7 @@ color: var(--clr-white);
     justify-content: left;
     gap: 10px;
     align-items: center;
-      margin-top:0px;
+    margin-top: 0px;
   }
   
   .mint-symbol li {
@@ -317,15 +318,16 @@ color: var(--clr-white);
     justify-content: left;
     gap: 10px;
     align-items: center;
+    margin-top: 0px;
   }
   
-  .verified-symbol li {
+  /* .verified-symbol li {
     
     margin: 0 5px 0 0;
     width: 90px;
     height: 40px;
     position: relative;
-  }
+  } */
   
   .verified-symbol label,
   .verified-symbol input {
@@ -369,6 +371,10 @@ color: var(--clr-white);
     max-width: 40%;
     height: 50px;
     text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   input[type=checkbox] {
     accent-color: var(--clr-prime);
@@ -386,10 +392,19 @@ color: var(--clr-white);
   }
   .coin-scan > *{
     flex: 1 1 50%;
+    position: relative;
+  }
+  .coins-angles{
+    position: absolute;
+    right: 0;
+    top:0;
   }
   .anglebtn{
     background: var(--clr-white);
     border: 1px solid var(--clr-prime);
+    padding: 10px;
+    font-size: 12px;
+    margin: 5px;
   }
   .coin-action-btns{
     display: flex;
@@ -400,7 +415,7 @@ color: var(--clr-white);
     display: inline-block;
     border: 1px solid var(--clr-prime);
     border-radius: 5px;
-    padding: 10px 30px;
+    padding: 7px 15px;
   }
   .verify-s.active{
     background: var(--clr-prime);
