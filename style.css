@@ -80,6 +80,9 @@ color: var(--clr-white);
     display: flex;
     flex-direction: column;
 }
+.field-container label{
+  font-size: 12px
+}
 .field-container input,
 .field-container select{
     background: transparent;
