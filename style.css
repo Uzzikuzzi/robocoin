@@ -93,6 +93,10 @@ color: var(--clr-white);
     cursor: pointer;
     color: var(--clr-white);
 }
+.field-container select option{
+color:#000000;
+    background:var(--clr-white);
+}
 .field-container input:focus{
     outline: none;
 }
@@ -132,10 +136,10 @@ color: var(--clr-white);
     padding: 5px 20px !important;
 }
 .all-coins.stats-table th:first-of-type{
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 10px 0px 0px 10px;
 }
 .all-coins.stats-table th:last-of-type{
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 
